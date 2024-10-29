@@ -123,7 +123,7 @@ class LoadVentasTMK:
 
     def main(self):
         functions = [
-            #self.extracted_data_mail,
+            self.extracted_data_mail,
             self.estructured_insert,
         ]
         for fun in tqdm(functions, desc='Upload Sales'):
@@ -138,7 +138,7 @@ if __name__ == "__main__":
         'MOVIL': ['remitanten_org3@outlook.com; remitanten_org4@outlook.com; remitanten_org5@outlook.com;'],
     }
     dicMail = {
-        'Correo': 'Ronal.Barberi@outlook.com',
+        'Correo': 'RonalD.Barberi@outlook.com',
         'Carpeta_Principal': 'SALES',
         'Carpeta_Secundaria': 'BACKOFICE',
     }
