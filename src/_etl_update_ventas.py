@@ -3,6 +3,9 @@
 Created on Tue Oct 29 09:05:20 2024
 
 @author: Ronal.Barberi
+READ.ME:
+    The following ETL extracts information from received emails, performs data transformation as needed, and inserts the data into the SQL server,
+    where it also triggers the execution of the necessary stored procedures.
 """
 
 #%% Imported libraries
